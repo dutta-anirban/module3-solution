@@ -1,61 +1,42 @@
-body {
-	font-size: 16px;
+*{
+	margin: 0;
+	padding: 0;
+	
+}
+.navbar{
+
+border: none;
+background-color: black;
+color: #61122F;
+}
+body{
+	background-color: #61122F;
 	color: white;
-	background-color: #8243d6;
-	font-family: 'Lobster', cursive;
+}
+.glyphicon{
+	font-size: 30px;
+	color:#61122F; 
 }
 
-/* HEADER */
-#header-nav {
-	background-color: #530fad;
-	border-radius: 0;
-	border: 0;
-	color: white;
+.center{
+	width: 90%;
+	background-color: grey;
+
+}
+.container
+{
+	background-color: grey;
+}
+.text-center{
+	font-size: 30px;
 }
 
-.navbar-brand p {
-	color: white;
-	font-size: 20px;
-}
-
-.navbar-brand a:focus, .navbar-brand a:hover {
-	text-decoration: none;
-}
-
-#nav-list a {
-	color: white;
+h2{
 	text-align: center;
 }
-
-#nav-list a:hover {
-	background-color: #8243d6;
+#myNavbar ul li a {
+	color: #61122F;
 }
-/* END HEADER */
-
-/* Section */
-#home {
-	margin-bottom: 30px;
-}
-
-.row {
-	
-	position: relative;
-	float: left;
-}
-
-.row > div > article {
-	background-color: white;
-	text-align: justify;
-	margin-bottom: 20px;
-	padding: 12px;
-	color: black;
-}
-/* End Section */
-
-
-@media (max-width: 767px) {
-	.row > div > article {
-		width: 80%;
-		margin: 20px auto 0;
-	}
+.navbar-brand{
+font-size: 30px;	
 }
